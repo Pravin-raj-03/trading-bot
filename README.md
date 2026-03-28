@@ -60,10 +60,7 @@ Place a stop-limit buy order for BTC/USDT:
 ```bash
 python cli.py order BTCUSDT BUY STOP_LIMIT 0.001 --price 95000 --stop-price 94500
 ```
-
-## Professional Polish and Conventions
-
-This project adheres to the **Google Python Style Guide** for documentation and code structure. 
+ 
 
 ### Simulation Mode (Testing)
 You can run the application in simulation mode to explore the features safely without providing API credentials or impacting your testnet balance:
